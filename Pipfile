@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+youtube-dl = ">=2021.5.16"
+ordered-set = "~=4.0"
+prompt_toolkit = "~=3.0"
+python-bidi = "~=0.4"
+unidecode = "*"
+
+[dev-packages]
+mypy = "*"
+flake8 = "~=3.9"
+isort = "~=5.8"
+
+[requires]
+python_version = "3.9"
